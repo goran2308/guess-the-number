@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #6E1F4E;
+  background: -webkit-linear-gradient(top left, #6E1F4E, #17D682);
+  background: -moz-linear-gradient(top left, #6E1F4E, #17D682);
+  background: linear-gradient(to bottom right, #6E1F4E, #17D682);
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #d99ac5;
+  font-family: 'Amatic SC', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin: 50px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 62px;
+  font-weight: bold;
+}
+
+main {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#number {
+  width: 150px;
+  height: auto;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Amatic SC', cursive;
+  border: none;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #333232;
+  color: #d99ac5;
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, .7);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  margin: 10px auto;
+}
+
+#try,
+#reset {
+  border: none;
+  margin: 5px;
+  height: 30px;
+  background-color: #d99ac5;
+  color: #333232;
+  font-family: 'Amatic SC', cursive;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, .7);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 18px;
+  color: #333232;
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin: 30px;
+  color: #333232;
+  font-weight: bold;
+  font-size: 20px;
+}

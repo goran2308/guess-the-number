@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guess the number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Guess the number 1 - 50</h1>
+    </header>
+    <main>
+      <div class="label" for="number">Enter the number</div>
+      <div>
+        <input id="number" type="text" name="number">
+        <div class="buttons">
+          <button id="try">Try</button>
+          <button id="reset" onclick="location.reload();">Reset</button>
+        </div>
+      </div>
+      <div class="result"></div>
+    </main>
+    <footer>
+      <small>&copy Copyright Goran Solev 2020</small>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
